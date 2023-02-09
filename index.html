@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>C262</title>
+<style>
+
+    body {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    h1 {
+        color: red;
+    }
+    iframe {
+        width : 500px ;
+        height : 300px;
+    }
+
+</style>
+</head>
+
+
+<body>
+    <h1>Covis Stats</h1>
+    <form method ='POST'>
+        <label>Enter Your Country Name </label>
+        <br><br>
+        <input placeholder="Country Name " name = "text">
+        <input type = "submit">
+    </form>
+    <iframe src = "{{image}}" ></iframe>
+    <p>You have {{count}} visitors </p>
+</body>
+</html>
